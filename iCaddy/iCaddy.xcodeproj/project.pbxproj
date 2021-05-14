@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266878CB244E257700425806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266878CA244E257700425806 /* AppDelegate.swift */; };
+		266878CD244E257700425806 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266878CC244E257700425806 /* SceneDelegate.swift */; };
+		266878CF244E257700425806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266878CE244E257700425806 /* ViewController.swift */; };
+		266878D2244E257700425806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266878D0244E257700425806 /* Main.storyboard */; };
+		266878D5244E257700425806 /* iCaddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 266878D3244E257700425806 /* iCaddy.xcdatamodeld */; };
+		266878D7244E257900425806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266878D6244E257900425806 /* Assets.xcassets */; };
+		266878DA244E257900425806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266878D8244E257900425806 /* LaunchScreen.storyboard */; };
+		266878E2244E268400425806 /* app3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 266878E1244E268400425806 /* app3.jpg */; };
+		266878E4244E2AB300425806 /* cad.png in Resources */ = {isa = PBXBuildFile; fileRef = 266878E3244E2AB300425806 /* cad.png */; };
+		266878E6244E2DD200425806 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266878E5244E2DD200425806 /* MapViewController.swift */; };
+		266878E8244F3C5E00425806 /* GolfCourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266878E7244F3C5E00425806 /* GolfCourseTableViewCell.swift */; };
+		266878EA244F50FD00425806 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266878E9244F50FD00425806 /* WebViewController.swift */; };
+		266878EC244F5AB100425806 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266878EB244F5AB100425806 /* FavoriteViewController.swift */; };
+		266878EE244F5ACE00425806 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266878ED244F5ACE00425806 /* WeatherViewController.swift */; };
+		266878F0244F5F0B00425806 /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 266878EF244F5F0B00425806 /* weather.png */; };
+		266878F5244FEC4300425806 /* Favorite+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266878F3244FEC4300425806 /* Favorite+CoreDataClass.swift */; };
+		266878F6244FEC4300425806 /* Favorite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266878F4244FEC4300425806 /* Favorite+CoreDataProperties.swift */; };
+		266878F8244FF43300425806 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266878F7244FF43300425806 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		266878C7244E257700425806 /* iCaddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCaddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		266878CA244E257700425806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		266878CC244E257700425806 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		266878CE244E257700425806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		266878D1244E257700425806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		266878D4244E257700425806 /* iCaddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCaddy.xcdatamodel; sourceTree = "<group>"; };
+		266878D6244E257900425806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		266878D9244E257900425806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		266878DB244E257900425806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266878E1244E268400425806 /* app3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app3.jpg; sourceTree = "<group>"; };
+		266878E3244E2AB300425806 /* cad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cad.png; path = ../../../../Downloads/cad.png; sourceTree = "<group>"; };
+		266878E5244E2DD200425806 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		266878E7244F3C5E00425806 /* GolfCourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCourseTableViewCell.swift; sourceTree = "<group>"; };
+		266878E9244F50FD00425806 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		266878EB244F5AB100425806 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		266878ED244F5ACE00425806 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		266878EF244F5F0B00425806 /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weather.png; path = ../../../../Downloads/weather.png; sourceTree = "<group>"; };
+		266878F3244FEC4300425806 /* Favorite+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataClass.swift"; sourceTree = "<group>"; };
+		266878F4244FEC4300425806 /* Favorite+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		266878F7244FF43300425806 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		266878C4244E257700425806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266878BE244E257700425806 = {
+			isa = PBXGroup;
+			children = (
+				266878C9244E257700425806 /* iCaddy */,
+				266878C8244E257700425806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		266878C8244E257700425806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266878C7244E257700425806 /* iCaddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		266878C9244E257700425806 /* iCaddy */ = {
+			isa = PBXGroup;
+			children = (
+				266878F4244FEC4300425806 /* Favorite+CoreDataProperties.swift */,
+				266878F3244FEC4300425806 /* Favorite+CoreDataClass.swift */,
+				266878CA244E257700425806 /* AppDelegate.swift */,
+				266878CC244E257700425806 /* SceneDelegate.swift */,
+				266878CE244E257700425806 /* ViewController.swift */,
+				266878E5244E2DD200425806 /* MapViewController.swift */,
+				266878D0244E257700425806 /* Main.storyboard */,
+				266878ED244F5ACE00425806 /* WeatherViewController.swift */,
+				266878EB244F5AB100425806 /* FavoriteViewController.swift */,
+				266878F7244FF43300425806 /* Model.swift */,
+				266878E9244F50FD00425806 /* WebViewController.swift */,
+				266878E7244F3C5E00425806 /* GolfCourseTableViewCell.swift */,
+				266878D6244E257900425806 /* Assets.xcassets */,
+				266878D8244E257900425806 /* LaunchScreen.storyboard */,
+				266878EF244F5F0B00425806 /* weather.png */,
+				266878E3244E2AB300425806 /* cad.png */,
+				266878E1244E268400425806 /* app3.jpg */,
+				266878DB244E257900425806 /* Info.plist */,
+				266878D3244E257700425806 /* iCaddy.xcdatamodeld */,
+			);
+			path = iCaddy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		266878C6244E257700425806 /* iCaddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266878DE244E257900425806 /* Build configuration list for PBXNativeTarget "iCaddy" */;
+			buildPhases = (
+				266878C3244E257700425806 /* Sources */,
+				266878C4244E257700425806 /* Frameworks */,
+				266878C5244E257700425806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCaddy;
+			productName = iCaddy;
+			productReference = 266878C7244E257700425806 /* iCaddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		266878BF244E257700425806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kyle Summers";
+				TargetAttributes = {
+					266878C6244E257700425806 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 266878C2244E257700425806 /* Build configuration list for PBXProject "iCaddy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 266878BE244E257700425806;
+			productRefGroup = 266878C8244E257700425806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				266878C6244E257700425806 /* iCaddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		266878C5244E257700425806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266878DA244E257900425806 /* LaunchScreen.storyboard in Resources */,
+				266878E4244E2AB300425806 /* cad.png in Resources */,
+				266878D7244E257900425806 /* Assets.xcassets in Resources */,
+				266878D2244E257700425806 /* Main.storyboard in Resources */,
+				266878F0244F5F0B00425806 /* weather.png in Resources */,
+				266878E2244E268400425806 /* app3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		266878C3244E257700425806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266878E8244F3C5E00425806 /* GolfCourseTableViewCell.swift in Sources */,
+				266878F8244FF43300425806 /* Model.swift in Sources */,
+				266878F6244FEC4300425806 /* Favorite+CoreDataProperties.swift in Sources */,
+				266878EE244F5ACE00425806 /* WeatherViewController.swift in Sources */,
+				266878CF244E257700425806 /* ViewController.swift in Sources */,
+				266878D5244E257700425806 /* iCaddy.xcdatamodeld in Sources */,
+				266878CB244E257700425806 /* AppDelegate.swift in Sources */,
+				266878EA244F50FD00425806 /* WebViewController.swift in Sources */,
+				266878E6244E2DD200425806 /* MapViewController.swift in Sources */,
+				266878F5244FEC4300425806 /* Favorite+CoreDataClass.swift in Sources */,
+				266878EC244F5AB100425806 /* FavoriteViewController.swift in Sources */,
+				266878CD244E257700425806 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		266878D0244E257700425806 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266878D1244E257700425806 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		266878D8244E257900425806 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266878D9244E257900425806 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		266878DC244E257900425806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		266878DD244E257900425806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		266878DF244E257900425806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iCaddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.iCaddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		266878E0244E257900425806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iCaddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.iCaddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266878C2244E257700425806 /* Build configuration list for PBXProject "iCaddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266878DC244E257900425806 /* Debug */,
+				266878DD244E257900425806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		266878DE244E257900425806 /* Build configuration list for PBXNativeTarget "iCaddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266878DF244E257900425806 /* Debug */,
+				266878E0244E257900425806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		266878D3244E257700425806 /* iCaddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				266878D4244E257700425806 /* iCaddy.xcdatamodel */,
+			);
+			currentVersion = 266878D4244E257700425806 /* iCaddy.xcdatamodel */;
+			path = iCaddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 266878BF244E257700425806 /* Project object */;
+}
